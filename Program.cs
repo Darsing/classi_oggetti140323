@@ -64,7 +64,7 @@ namespace classi_oggetti140323
             for(int i=0;i<numero;i++)
             {
                 Animale a= new Animale();
-                a.Razza = "dama" + i;
+                a.Razza = "Gatto " + i;
                 a.Eta = 1 +i;
                 a.Colore = "bianco";
                 listAni.Add(a);

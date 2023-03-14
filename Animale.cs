@@ -17,6 +17,7 @@ namespace classi_oggetti140323
             }
             set
             {
+                //solo bianco o nero
                 if(value !=null && value.Contains("bianco") || value != null && value.Contains("nero"))
                 {
                     this.colore = value;
